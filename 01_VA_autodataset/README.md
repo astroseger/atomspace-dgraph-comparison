@@ -5,8 +5,8 @@ This particular experiment is a first step in which we generate relatively simpl
 
 ### Dataset
 
-In this dataset we have set of people who like different objects. We have different restaurants and we have set of reservations in these restaurants.
-The sample dataset in atomspace looks like this
+In this dataset we have set of people who like different objects. We have different restaurants and we have set of reservations in these restaurants. We can generate random dataset with different number of objects, persons, reservations and restaurants. 
+The small sample dataset in atomspace looks like this
 ```scheme
 (EvaluationLink (PredicateNode "Likes") 
    (ListLink 
