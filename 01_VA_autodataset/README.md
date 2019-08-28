@@ -156,11 +156,13 @@ In dgraph we simply count the number of participant who likes given object for e
 
 In order to compare execution time we've generated different datasets with fixed number of objects and persons but with different number of reservations. We wanted to see how execution time depends on number of reservations.
 
-results for query-1
+######results for query-1
+
 ![results-query-1](auto_time_check/time_check/req1.png)
 
-results for query-2
-![results-query-2](auto_time_check/time_check/req1.png)
+######results for query-2
+
+![results-query-2](auto_time_check/time_check/req2.png)
 
 You can see that time for query-1 is linear for both atomspace and dgraph (for dgraph time is given for variant-1, for variant-2 time would be smaller). For query-2 dgraph is linear but for atomspace is O(N^2).  
 
