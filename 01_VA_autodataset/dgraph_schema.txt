@@ -1,0 +1,6 @@
+<likes>: uid @reverse .
+<name_of_object>: string @index(hash) .
+<name_of_person>: string @index(hash) .
+<name_of_reservation>: string @index(hash) .
+<name_of_restaurant>: string @index(hash) .
+<participant>: uid @reverse .

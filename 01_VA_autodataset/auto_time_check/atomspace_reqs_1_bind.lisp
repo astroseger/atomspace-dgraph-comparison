@@ -1,0 +1,1 @@
+../atomspace_reqs_1_bind.lisp
