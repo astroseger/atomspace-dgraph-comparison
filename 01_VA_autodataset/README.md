@@ -1,12 +1,11 @@
-## Motivations of this experiment
+﻿## Motivations of this experiment
 
-The general target of this study is to assess possibility of using DGraph in Opencog as part of episodic memory.
-This particular experiment is a first step in which we generate relatively simply dataset and
-we compare the performance of dgraph and atomspace for different queries.
+The general target of this study is to assess the possibility of using DGraph in Opencog as a part of the episodic memory.
+This particular experiment is a first step in which we generate relatively simply dataset for the comparison of the performance of dgraph and atomspace for different queries.
 
 ### Dataset
 
-In this dataset we have set of people who could like different object. We have different restaurants and we have set of simple reservations.
+In this dataset we have set of people who like different objects. We have different restaurants and we have set of reservations in these restaurants.
 The sample dataset in atomspace looks like this
 ```scheme
 (EvaluationLink (PredicateNode "Likes") 
@@ -61,7 +60,7 @@ _:person-000000 <name_of_person>  "person-000000" .
 _:obj-000001 <name_of_object> "obj-000001" .
 _:person-000001 <likes> _:obj-000001 .
 _:person-000001 <name_of_person>  "person-000001" .
-+_:obj-000003 <name_of_object> "obj-000003" .
+_:obj-000003 <name_of_object> "obj-000003" .
 _:person-000002 <likes> _:obj-000003 .
 _:person-000002 <name_of_person>  "person-000002" .
 _:person-000003 <name_of_person>  "person-000003" .
@@ -150,8 +149,8 @@ name2(func: uid(good_reservations)) @filter(ge(val(num_count), 2))
 
 query in atomspace [atomspace_reqs_2_bind.lisp](atomspace_reqs_2_bind.lisp)
 
-You can see that queries in dgrapn and atomspace are very differnt.  
-In dgraph we simply count the number of participan who likes given object for each of reservation.
+You can see that queries in dgrapn and atomspace are very different.  
+In dgraph we simply count the number of participant who likes given object for each of reservation.
 
 ###Comparison of the execution time
 
@@ -167,7 +166,7 @@ You can see that time for query-1 is linear for both atomspace and dgraph (for d
 
 ### Discussion
 
-* For this particular task we can successefully represent data in both atomspace and dgraph. 
-* In dgraph we have much more control how exectly we traverse graph. However it is a disadvantage, because in query-1 atomspace manage to choose optimal traverse, however it might not be a case in the general case
+* For this particular task we can successfully represent data in both atomspace and dgraph. 
+* In dgraph we have much more control how exactly we traverse graph. However it is a disadvantage, because in query-1 atomspace manage to choose optimal traverse, however it might not be a case in the general case
 * It is not clear how automatically translate request from atomspace to dgraph
 
