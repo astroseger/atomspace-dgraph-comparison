@@ -152,15 +152,15 @@ query in atomspace [atomspace_reqs_2_bind.lisp](atomspace_reqs_2_bind.lisp)
 You can see that queries in dgrapn and atomspace are very different.  
 In dgraph we simply count the number of participant who likes given object for each of reservation.
 
-###Comparison of the execution time
+### Comparison of the execution time
 
 In order to compare execution time we've generated different datasets with fixed number of objects and persons but with different number of reservations. We wanted to see how execution time depends on number of reservations.
 
-######results for query-1
+###### results for query-1
 
 ![results-query-1](auto_time_check/time_check/req1.png)
 
-######results for query-2
+###### results for query-2
 
 ![results-query-2](auto_time_check/time_check/req2.png)
 
