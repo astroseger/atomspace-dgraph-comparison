@@ -58,6 +58,7 @@ Similar to [01_VA_autodataset](../01_VA_autodataset) we will consider two querie
 2. Find all reservations with at least two persons who likes X.
 
 First Query in atomspace was as following: [atomspace_reqs_1_bind.lisp](atomspace_reqs_1_bind.lisp)
+
 Second query was as following:  [atomspace_reqs_2_bind.lisp](atomspace_reqs_2_bind.lisp)
 
 You can see that queiries are sligtly simpler then in
