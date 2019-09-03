@@ -76,7 +76,7 @@ In order to compare execution time we've generated different datasets with fixed
 
 ###### results for query-2
 
-![results-query-2](time_check/com_atomspace_req2.png)
+![results-query-2](time_check/cmp_atomspace_req2.png)
 
 
 ### Discussion
