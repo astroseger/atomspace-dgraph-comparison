@@ -79,7 +79,7 @@ _:reservation-000001 <participant> _:person-000003 .
 _:reservation-000001 <participant> _:person-000004 .
 ```
 
-### Queries and the comparison of speed
+### Queries
 
 We will consider two queries here:
 
