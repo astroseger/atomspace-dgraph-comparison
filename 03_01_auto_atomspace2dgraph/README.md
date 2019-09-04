@@ -1,4 +1,4 @@
-﻿## Automatic translation from atomspace to dgraph
+## Automatic translation from atomspace to dgraph
 
 We can relatively easy translate atomese hyper-graph into dgraph rdf.
 
@@ -105,7 +105,7 @@ dgraph schema:
 ```
 
 
-##Query
+## Query
 
 Analog of query-1 from [01_VA_autodataset](../01_VA_autodataset) (Find
 all reservations for restaurant X with person who likes Y) will look
