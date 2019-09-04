@@ -52,8 +52,7 @@ dgraph schema is as following:
 
 It should be noted that we store name_of_concept and name_of_predicate
 in int instead of string. Storing in string would be a little bit
-slower (however not much slower)
-transaction from atomspace to dgraph
+slower, however would not change conclusions.
 
 ## Query
 
