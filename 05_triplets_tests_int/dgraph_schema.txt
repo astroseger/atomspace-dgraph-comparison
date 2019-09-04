@@ -1,0 +1,6 @@
+<EvaluationLinkLink1>: uid @reverse .
+<EvaluationLinkLink2>: uid @reverse .
+<ListLinkLink1>: uid @reverse .
+<ListLinkLink2>: uid @reverse .
+<name_of_predicate>: int @index(int) .
+<name_of_concept>: int @index(int) .
