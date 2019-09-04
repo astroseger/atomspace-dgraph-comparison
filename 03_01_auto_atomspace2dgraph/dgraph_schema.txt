@@ -1,0 +1,7 @@
+<EvaluationLinkLink1>: uid @reverse .
+<EvaluationLinkLink2>: uid @reverse .
+<ListLinkLink1>: uid @reverse .
+<ListLinkLink2>: uid @reverse .
+<SetLinkLink>: uid @reverse .
+<name_of_predicate>: string @index(hash) .
+<name_of_concept>: string @index(hash) .

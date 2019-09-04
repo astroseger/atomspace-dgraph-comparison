@@ -1,0 +1,1 @@
+../01_VA_autodataset/atomspace_reqs_1_bind.lisp
