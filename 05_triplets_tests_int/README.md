@@ -4,7 +4,7 @@ In this experiment we apply our "algorithm" for automatic transaction
 from atomspace to dgraph (see experiment [03_01_auto_atomspace2dgraph](../03_01_auto_atomspace2dgraph)) in the context of the simple task: set of
 binary predicates. 
 
-## dataset
+## Dataset
 
 We have:
 - N random objects
@@ -99,7 +99,7 @@ dgraph_name(func: eq(name_of_concept, ${sid})) @cascade
 
 ```
 
-In the second version of the call we will make one step back and
+In the second version of the query we will make one step back and
 return uid (unique id of dgraph node) instead of name_of_concept. We
 can expect that it will not make any different because converting uid
 to name_of_concept should be very fast.
