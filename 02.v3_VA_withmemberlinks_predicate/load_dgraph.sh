@@ -1,0 +1,1 @@
+../01_VA_autodataset/load_dgraph.sh

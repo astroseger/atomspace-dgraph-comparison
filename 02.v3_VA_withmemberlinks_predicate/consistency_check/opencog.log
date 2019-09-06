@@ -1,0 +1,55 @@
+[2019-08-29 16:55:55:965] [ERROR] Python-Scheme Wrapper: Failed to execute '(load "../atomspace_reqs_2_bind.lisp")'
+Backtrace:
+          19 (apply-smob/1 #<catch-closure 558d457017e0>)
+In ice-9/boot-9.scm:
+   2312:4 18 (save-module-excursion #<procedure 558d45706980 at ice-‚Ä¶>)
+In ice-9/eval-string.scm:
+     38:6 17 (read-and-eval #<input: string 558d455bbe00> #:lang _)
+In ice-9/boot-9.scm:
+   2312:4 16 (save-module-excursion #<procedure 558d456f6690 at ice-‚Ä¶>)
+  3823:10 15 (_)
+   1693:5 14 (%start-stack load-stack _)
+   1695:9 13 (_)
+In unknown file:
+          12 (primitive-load "/home/seger/work/workspace/AI/opencog/‚Ä¶")
+In ice-9/eval.scm:
+   191:35 11 (_ #f)
+   202:43 10 (_ #f)
+   214:21  9 (_ #f)
+   217:50  8 (lp (#<procedure 558d4523e6f0 at ice-9/eval.scm:196:‚Ä¶> ‚Ä¶))
+   217:50  7 (lp (#<procedure 558d4523e690 at ice-9/eval.scm:196:‚Ä¶> ‚Ä¶))
+   217:33  6 (lp (#<procedure 558d4527cca0 at ice-9/eval.scm:191:12‚Ä¶>))
+   191:35  5 (_ #f)
+   196:27  4 (_ #f)
+   223:20  3 (proc #<directory (guile-user) 558d45368140>)
+In unknown file:
+           2 (%resolve-variable (7 . Indentical) #<directory (guile-‚Ä¶>)
+In ice-9/boot-9.scm:
+   751:25  1 (dispatch-exception 0 unbound-variable (#f "Unbound ‚Ä¶" ‚Ä¶))
+In unknown file:
+           0 (apply-smob/1 #<catch-closure 558d457017a0> # #f "Unbo‚Ä¶" ‚Ä¶)
+
+ERROR: In procedure apply-smob/1:
+Unbound variable: Indentical
+ABORT: unbound-variable
+ (/home/seger/work/workspace/AI/opencog/git/atomspace/opencog/cython/opencog/PyScheme.cc:63)
+	Stack Trace:
+	2: /usr/local/lib/opencog/libcogutil.so (opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*) +0x102) [0x7f18e55ebec2]
+	3: /usr/local/lib/opencog/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f18e55ec082]
+	4: /usr/local/lib/opencog/libcogutil.so (opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool) +0x62) [0x7f18e55d7db2]
+	5: /usr/local/lib/opencog/libcogutil.so (opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool) +0xab) [0x7f18e55d7e9b]
+	6: /usr/local/lib/opencog/libcogutil.so (opencog::RuntimeException::RuntimeException(char const*, char const*, ...) +0xb4) [0x7f18e55d7fe4]
+	7: /usr/local/lib/python3.6/dist-packages/opencog/scheme_wrapper.so (opencog::eval_scheme(opencog::AtomSpace*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) +0x1b5) [0x7f18e42ddf25]
+	8: /usr/local/lib/python3.6/dist-packages/opencog/scheme_wrapper.so (êÇ/cçU +0xad17) [0x7f18e42dfd17]
+	9: python (êÇ/cçU +0x78) [0x558d436092d8]
+	10: python (êÇ/cçU +0x41a) [0x558d4365f56a]
+	11: python (êÇ/cçU +0x20d) [0x558d4366a2ad]
+	12: python (êÇ/cçU +0x1c) [0x558d4366b1fc]
+	13: python (êÇ/cçU +0x20f8d4) [0x558d436c88d4]
+	14: python (êÇ/cçU +0xa1) [0x558d436c9f41]
+	15: python (êÇ/cçU +0x1de) [0x558d436ca15e]
+	16: python (êÇ/cçU +0x5cd) [0x558d436ca80d]
+	17: python (êÇ/cçU +0xe1) [0x558d43594571]
+	18: /lib/x86_64-linux-gnu/libc.so.6 (êÇ/cçU +0xe7) [0x7f18e91ecb97]
+	19: python (êÇ/cçU +0x1b3f38) [0x558d4366cf38]
+

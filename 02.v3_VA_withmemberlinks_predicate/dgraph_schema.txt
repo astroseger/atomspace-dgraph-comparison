@@ -1,0 +1,1 @@
+../01_VA_autodataset/dgraph_schema.txt
