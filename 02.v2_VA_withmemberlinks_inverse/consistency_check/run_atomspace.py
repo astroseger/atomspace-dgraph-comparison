@@ -1,0 +1,1 @@
+../../01_VA_autodataset/consistency_check/run_atomspace.py
