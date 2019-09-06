@@ -4,7 +4,7 @@ The same as in [02_VA_withmemberlinks](../02_VA_withmemberlinks/), but with Part
 
 ### Dataset
 
-The same small sample dataset as in  will look like this:
+The same small sample dataset as in  [01_VA_autodataset](../01_VA_autodataset) will look like this:
 
 ```scheme
 (EvaluationLink (PredicateNode "Likes")

@@ -1,13 +1,10 @@
 ﻿## Experiment
 
-The same as in [02_VA_withmemberlinks](../02_VA_withmemberlinks/),
-but with inverse member link. See results in
-[02.v3_VA_withmemberlinks_predicate](../02.v3_VA_withmemberlinks_predicate/).
+The same as in [02_VA_withmemberlinks](../02_VA_withmemberlinks/), but with inverse member link. See results in [02.v3_VA_withmemberlinks_predicate](../02.v3_VA_withmemberlinks_predicate/).
 
 ### Dataset
 
-The same small sample dataset as in  will look like this (MemberLinks
-are inverted in comparison to [02_VA_withmemberlinks](../02_VA_withmemberlinks/)):
+The same small sample dataset as in [01_VA_autodataset](../01_VA_autodataset)  will look like this (MemberLinks are inverted in comparison to [02_VA_withmemberlinks](../02_VA_withmemberlinks/)):
 
 ```scheme
 (EvaluationLink (PredicateNode "Likes")
