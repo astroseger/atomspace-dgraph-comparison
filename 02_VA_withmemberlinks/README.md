@@ -9,21 +9,6 @@ Opencog using MemberLink.
 The same small sample dataset as in ... will look like this:
 
 ```scheme
-(EvaluationLink (PredicateNode "Likes") (ListLink (ConceptNode
-"person-000000") (ConceptNode "obj-000001")))
-(EvaluationLink (PredicateNode "Reservation") (ListLink (ConceptNode
-"reservation-000000") (ConceptNode "restaurant-000000")))
-(MemberLink (ConceptNode "reservation-000000") (ConceptNode
-"person-000000"))
-(MemberLink (ConceptNode "reservation-000000") (ConceptNode
-"person-000001"))
-(MemberLink (ConceptNode "reservation-000000") (ConceptNode
-"person-000002"))
-(MemberLink (ConceptNode "reservation-000000") (ConceptNode
-"person-000003"))
-(MemberLink (ConceptNode "reservation-000000") (ConceptNode
-"person-000004"))
-
 (EvaluationLink (PredicateNode "Likes") 
    (ListLink 
         (ConceptNode "person-000000") 

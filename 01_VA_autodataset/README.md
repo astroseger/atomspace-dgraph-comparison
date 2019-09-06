@@ -149,7 +149,7 @@ name2(func: uid(good_reservations)) @filter(ge(val(num_count), 2))
 
 query in atomspace [atomspace_reqs_2_bind.lisp](atomspace_reqs_2_bind.lisp)
 
-You can see that queries in dgrapn and atomspace are very different.  
+You can see that queries in dgraph and atomspace are very different.  
 In dgraph we simply count the number of participant who likes given object for each of reservation.
 
 ### Comparison of the execution time
