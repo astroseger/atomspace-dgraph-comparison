@@ -18,8 +18,8 @@ translated into
 ```
 _:listlinkAB   <ListLinkLink1> _:ConceptNodeA .
 _:listlinkAB   <ListLinkLink2> _:ConceptNodeB .
-_:ConceptNodeA <name_of_concept> "person-000000" .
-_:ConceptNodeB <name_of_concept> "obj-000002" .
+_:ConceptNodeA <name_of_concept> "A" .
+_:ConceptNodeB <name_of_concept> "B" .
 ```
 
 (in dgraph, "_:X" will be translated into unique node id).
